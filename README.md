@@ -11,7 +11,7 @@ If the maintainer show some activity, I'll be happy to remove this fork.
 
 Git public hosting of the project source code is at:
 
-http://github.com/kamaradclimber/ruby-git-ng
+http://github.com/kamaradclimber/ruby-git
 
 ## Install
 
@@ -21,10 +21,10 @@ You can install git-ng like this:
 
 ## Code Status
 
-* [![Build Status](https://api.travis-ci.org/kamaradclimber/ruby-git-ng.png)](https://travis-ci.org/kamaradclimber/ruby-git-ng)
-* [![Code Climate](https://codeclimate.com/github/kamaradclimber/ruby-git-ng.png)](https://codeclimate.com/github/kamaradclimber/ruby-git-ng)
+* [![Build Status](https://api.travis-ci.org/kamaradclimber/ruby-git.png)](https://travis-ci.org/kamaradclimber/ruby-git)
+* [![Code Climate](https://codeclimate.com/github/kamaradclimber/ruby-git.png)](https://codeclimate.com/github/kamaradclimber/ruby-git)
 * [![Gem Version](https://badge.fury.io/rb/git-ng.png)](http://badge.fury.io/rb/git-ng)
-* [![Dependencies](https://gemnasium.com/kamaradclimber/ruby-git-ng.png?travis)](https://gemnasium.com/kamaradclimber/ruby-git-ng)
+* [![Dependencies](https://gemnasium.com/kamaradclimber/ruby-git.png?travis)](https://gemnasium.com/kamaradclimber/ruby-git)
 
 ## Major Objects
 
@@ -160,7 +160,7 @@ Here are the operations that need read permission only.
     g.show('HEAD')
     g.show('v2.8', 'README.md')
 
-    Git.ls_remote('https://github.com/kamaradclimber/ruby-git-ng.git') # returns a hash containing the available references of the repo.
+    Git.ls_remote('https://github.com/kamaradclimber/ruby-git.git') # returns a hash containing the available references of the repo.
     Git.ls_remote('/path/to/local/repo')
     Git.ls_remote() # same as Git.ls_remote('.')
 
