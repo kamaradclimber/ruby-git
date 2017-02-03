@@ -1,11 +1,19 @@
 language: ruby
 rvm:
-  - 1.9.3
-  - 2.0.0
-  - 2.1.1
-  - 2.1.2
-  - jruby-18mode
-  - jruby-19mode
+- 1.9.3
+- 2.0.0
+- 2.1.1
+- 2.1.2
+- jruby-18mode
+- jruby-19mode
 before_install:
-  - gem install bundler
-  - bundle --version
+- gem install bundler
+- bundle --version
+deploy:
+  provider: rubygems
+  api_key:
+    secure: l5n//al7zdBegs65UuPKULts/pYJzUydkaLuhHMGiUjLl+QM+Fz+zYZTgv+6tlVfR2BsJsKtUUmAoSrW1JC5W1EtPQefx2rsMQmtg8N7qAwIX65h1QLcN7bTAcwyolJuP0iOW3d+QEbiVQOrc7fW8eJLBxeMEyn+gn2QxXTP2qWTzPZ25CJI3RnEQq5IqFzYybxoaW43RYqqT5/DjxDy0SElXygicxVjDOnyDXJMCHrIodxAQG6hnk317U8hG/3+4Qr5LndM2Cpj0ah0Q9t7z1Hd/22C0aTqBLqe71ka/WEIy+7vKoKSQ2pzOARwLmjKcOmagv7vby4E02meD7IuQpmoDMMctDSpSBrAJPJKJyxlWbl58By87iX56XInu7mS42+sLPJV7k3i4Efar90EkgdGgSOwELY+iLq5ht7rYJHo+zC3UBZCdtMmSLyhbh6JZ9q3prAhPaz8i/bo+5uYiPZ4PwIyPm36PzjWDvxAQlXlOsns+mNapMs+TypXQ2HBZ0LWIZW5cF5tluxbmlUynhFkvBwSnIAZw0exva50Z9+1Ty1A85k+34+clq5QfawfeIwxiEprwuYalVGA3SokvJskJSqSLeWvdz8RC5pyrKgttIKRmgIPXjFKyHnQYR2032t3fwro2ToPVDZKSkhFNrHGbIs0/npgrQIQQgv0L9A=
+  gem: git-ng
+  on:
+    tags: true
+    repo: kamaradclimber/ruby-git
