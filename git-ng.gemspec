@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.license = 'MIT'
   s.name = 'git-ng'
   s.summary = 'Ruby/Git is a Ruby library that can be used to create, read and manipulate Git repositories by wrapping system calls to the git binary.'
-  s.version = '1.3.0'
+  s.version = '1.4.0'
 
   s.require_paths = ['lib']
   s.required_ruby_version = '>= 1.9.3'
