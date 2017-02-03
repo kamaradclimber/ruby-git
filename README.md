@@ -23,7 +23,7 @@ You can install git-ng like this:
 
 * [![Build Status](https://api.travis-ci.org/kamaradclimber/ruby-git-ng.png)](https://travis-ci.org/kamaradclimber/ruby-git-ng)
 * [![Code Climate](https://codeclimate.com/github/kamaradclimber/ruby-git-ng.png)](https://codeclimate.com/github/kamaradclimber/ruby-git-ng)
-* [![Gem Version](https://badge.fury.io/rb/git.png)](http://badge.fury.io/rb/git)
+* [![Gem Version](https://badge.fury.io/rb/git-ng.png)](http://badge.fury.io/rb/git-ng)
 * [![Dependencies](https://gemnasium.com/kamaradclimber/ruby-git-ng.png?travis)](https://gemnasium.com/kamaradclimber/ruby-git-ng)
 
 ## Major Objects
