@@ -2,24 +2,29 @@
 
 Library for using Git in Ruby.
 
+**Note**: This gem is a fork of http://github.com/schacon/ruby-git. Upstream version is not maintained by the authors.
+
+I'll maintain a version with necessary patches and publish them under git-ng gem. All class namespace will be kept identical to ruby-git.
+If the maintainer show some activity, I'll be happy to remove this fork.
+
 ## Homepage
 
 Git public hosting of the project source code is at:
 
-http://github.com/schacon/ruby-git
+http://github.com/kamaradclimber/ruby-git-ng
 
 ## Install
 
-You can install Ruby/Git like this:
+You can install git-ng like this:
 
-    $ sudo gem install git
+    $ gem install git-ng
 
 ## Code Status
 
-* [![Build Status](https://api.travis-ci.org/schacon/ruby-git.png)](https://travis-ci.org/schacon/ruby-git)
-* [![Code Climate](https://codeclimate.com/github/schacon/ruby-git.png)](https://codeclimate.com/github/schacon/ruby-git)
+* [![Build Status](https://api.travis-ci.org/kamaradclimber/ruby-git-ng.png)](https://travis-ci.org/kamaradclimber/ruby-git-ng)
+* [![Code Climate](https://codeclimate.com/github/kamaradclimber/ruby-git-ng.png)](https://codeclimate.com/github/kamaradclimber/ruby-git-ng)
 * [![Gem Version](https://badge.fury.io/rb/git.png)](http://badge.fury.io/rb/git)
-* [![Dependencies](https://gemnasium.com/schacon/ruby-git.png?travis)](https://gemnasium.com/schacon/ruby-git)
+* [![Dependencies](https://gemnasium.com/kamaradclimber/ruby-git-ng.png?travis)](https://gemnasium.com/kamaradclimber/ruby-git-ng)
 
 ## Major Objects
 
@@ -155,7 +160,7 @@ Here are the operations that need read permission only.
     g.show('HEAD')
     g.show('v2.8', 'README.md')
 
-    Git.ls_remote('https://github.com/schacon/ruby-git.git') # returns a hash containing the available references of the repo.
+    Git.ls_remote('https://github.com/kamaradclimber/ruby-git-ng.git') # returns a hash containing the available references of the repo.
     Git.ls_remote('/path/to/local/repo')
     Git.ls_remote() # same as Git.ls_remote('.')
 
